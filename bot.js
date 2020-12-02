@@ -12,10 +12,11 @@ client.on('message', msg => {
         msg.reply('pong')
     } else if (msg.content === 'kanna') {
         msg.reply('තේ නෑනේ මහත්තයො')
+    } else if (msg.content === 'rangana') {
+        msg.reply('gggggg')
     }
 
 
 })
-
 
 client.login(process.env.BOT_TOKEN)

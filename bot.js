@@ -7,6 +7,10 @@ client.on('ready', () => {
     console.log(`Our bot is ready to go.`)
 })
 
+client.on('guildMemberAdd', member => {
+    member.guild.channels.get('channelID').send("Welcome");
+});
+
 client.on('message', msg => {
     if (msg.content === '!-ping') {
         msg.reply('pong')

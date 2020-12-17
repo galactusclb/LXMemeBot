@@ -67,9 +67,10 @@ client.on('message', msg => {
             .setTimestamp();
 
         msg.channel.send(embed)
-    } else {
-        msg.reply(' wrong command bitch')
     }
+    // else {
+    //     msg.reply(' wrong command bitch')
+    // }
 
 
 

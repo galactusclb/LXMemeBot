@@ -61,31 +61,24 @@ client.on('message', msg => {
             near future, he might not be around to drive me crazy.
             `)
             .setColor('#FF2D00')
-            // .setThumbnail('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
-            // .setImage('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
-            // .setFooter('This is a example footer', 'https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
-            .addFields(
-                //     {
-                //     name: 'Notice',
-                //     value: 'We have a special steam at 7:00pm today, so if join with us ',
-                //     inline: true
-                // }, 
-                {
-                    name: '👇👇👇',
-                    value: '',
-                    inline: true
-                }, {
+            .setThumbnail('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
+            .setImage('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
+            .setFooter('This is a example footer', 'https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
+            .addFields({
+                name: 'Notice',
+                value: 'We have a special steam at 7:00pm today, so if join with us ',
+                inline: true
+            }, {
+                name: '👇👇👇',
+                value: 'This is a example value',
+                inline: true
+            }, {
                 name: '👇👇',
-                value: ''
+                value: 'This is a example value'
             }, {
                 name: '👇',
-                value: ''
-            }, {
-                name: 'Notice',
-                value: 'We have a special steam at 7:00pm today, so join with us 🤪',
-                inline: true
-            }
-            )
+                value: 'This is a example value'
+            })
             .setTimestamp();
 
         // .addFields({

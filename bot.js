@@ -41,30 +41,68 @@ client.on('message', msg => {
     } else if (msg.content === '!-banners') {
 
         const embed = new Discord.MessageEmbed()
-            .setTitle('This is a test Embed.')
+            // .setTitle('This is a test Embed.')
+            .setTitle('Save Walter White')
             .setURL('http://www.savewalterwhite.com/')
-            .setAuthor('example')
-            .setDescription('This is a test Description which we will see.')
+            .setAuthor('jr.Walter')
+            .setDescription(`
+            My dad is amazing. It's funny, but I didn't know that until I
+            found out he was going to die.  That it was going to happen
+            soon.  That it was real.  Then I thought about a lot of stuff.
+            Things I hadn't thought about for a long time.  I guess I kind
+            of took him for granted or something.  I mean, our parents are
+            just always there.  You expect them to always be bugging you
+            to clean up your room or study harder or have good manners or
+            try new things to grow up to be a more well-rounded person one
+            day.  And make you get up early on the weekend to have
+            "family time" and all that other stuff that used to drive me
+            crazy.  I don't feel that way now.  Everything's different since
+            Dad got his diagnosis.  Since I realized that one day in the
+            near future, he might not be around to drive me crazy.
+            `)
             .setColor('#FF2D00')
             .setThumbnail('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
             .setImage('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
             .setFooter('This is a example footer', 'https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
-            .addFields({
-                name: 'Test Number 1',
-                value: 'This is a example value',
+            .addFields(
+                //     {
+                //     name: 'Notice',
+                //     value: 'We have a special steam at 7:00pm today, so if join with us ',
+                //     inline: true
+                // }, 
+                {
+                    name: '👇👇👇',
+                    // value: 'This is a example value',
+                    inline: true
+                }, {
+                name: '👇👇',
+                // value: 'This is a example value'
+            }, {
+                name: '👇',
+                // value: 'This is a example value'
+            }, {
+                name: 'Notice',
+                value: 'We have a special steam at 7:00pm today, so if join with us ',
                 inline: true
-            }, {
-                name: 'Test Number 2',
-                value: 'This is a example value',
-                inline: true
-            }, {
-                name: 'Test Number 3',
-                value: 'This is a example value'
-            }, {
-                name: 'Test Number 4',
-                value: 'This is a example value'
-            })
+            }
+            )
             .setTimestamp();
+
+        // .addFields({
+        //     name: 'Notice',
+        //     value: 'We have a special steam at 7:00pm today, so if join with us ',
+        //     inline: true
+        // }, {
+        //     name: 'Test Number 2',
+        //     value: 'This is a example value',
+        //     inline: true
+        // }, {
+        //     name: 'Test Number 3',
+        //     value: 'This is a example value'
+        // }, {
+        //     name: 'Test Number 4',
+        //     value: 'This is a example value'
+        // })
 
         msg.channel.send(embed)
     }

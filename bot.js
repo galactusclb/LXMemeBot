@@ -45,24 +45,24 @@ client.on('message', msg => {
             .setTitle('Save Walter White')
             .setURL('http://www.savewalterwhite.com/')
             .setAuthor('jr.Walter')
-            .setDescription(`
-            My dad is amazing. It's funny, but I didn't know that until I
-            found out he was going to die.  That it was going to happen
-            soon.  That it was real.  Then I thought about a lot of stuff.
-            Things I hadn't thought about for a long time.  I guess I kind
-            of took him for granted or something.  I mean, our parents are
-            just always there.  You expect them to always be bugging you
-            to clean up your room or study harder or have good manners or
-            try new things to grow up to be a more well-rounded person one
-            day.  And make you get up early on the weekend to have
-            "family time" and all that other stuff that used to drive me
-            crazy.  I don't feel that way now.  Everything's different since
-            Dad got his diagnosis.  Since I realized that one day in the
-            near future, he might not be around to drive me crazy.
-            `)
+            // .setDescription(`
+            // My dad is amazing. It's funny, but I didn't know that until I
+            // found out he was going to die.  That it was going to happen
+            // soon.  That it was real.  Then I thought about a lot of stuff.
+            // Things I hadn't thought about for a long time.  I guess I kind
+            // of took him for granted or something.  I mean, our parents are
+            // just always there.  You expect them to always be bugging you
+            // to clean up your room or study harder or have good manners or
+            // try new things to grow up to be a more well-rounded person one
+            // day.  And make you get up early on the weekend to have
+            // "family time" and all that other stuff that used to drive me
+            // crazy.  I don't feel that way now.  Everything's different since
+            // Dad got his diagnosis.  Since I realized that one day in the
+            // near future, he might not be around to drive me crazy.
+            // `)
             .setColor('#FF2D00')
             .setThumbnail('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
-            .setImage('https://cdn1.bbcode0.com/uploads/2020/12/17/73c9e39ecaeeb95cf59c4928858b5538-full.png')
+            // .setImage('https://cdn1.bbcode0.com/uploads/2020/12/17/73c9e39ecaeeb95cf59c4928858b5538-full.png')
             .setFooter('This is a example footer', 'https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
             .addFields({
                 name: 'Notice ⚠⚠⚠⚠📛📛📛📛',

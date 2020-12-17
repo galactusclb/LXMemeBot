@@ -62,7 +62,7 @@ client.on('message', msg => {
             `)
             .setColor('#FF2D00')
             .setThumbnail('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
-            // .setImage('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
+            .setImage('')
             .setFooter('This is a example footer', 'https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
             .addFields(
                 //     {

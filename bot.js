@@ -70,14 +70,14 @@ client.on('message', msg => {
                 inline: true
             }, {
                 name: '👇👇👇',
-                value: 'This is a example value',
+                value: '',
                 inline: true
             }, {
                 name: '👇👇',
-                value: 'This is a example value'
+                value: ''
             }, {
                 name: '👇',
-                value: 'This is a example value'
+                value: ''
             })
             .setTimestamp();
 

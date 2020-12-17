@@ -42,13 +42,13 @@ client.on('message', msg => {
 
         const embed = new Discord.MessageEmbed()
             .setTitle('This is a test Embed.')
-            .setURL('https://example.com')
+            .setURL('http://www.savewalterwhite.com/')
             .setAuthor('example')
             .setDescription('This is a test Description which we will see.')
             .setColor('#FF2D00')
-            .setThumbnail('https://example.png')
-            .setImage('https://example.png')
-            .setFooter('This is a example footer', 'https://example.png')
+            .setThumbnail('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
+            .setImage('https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
+            .setFooter('This is a example footer', 'https://cdn1.bbcode0.com/uploads/2020/12/17/525d52e3cd2984db9171ec683c6dd598-full.png')
             .addFields({
                 name: 'Test Number 1',
                 value: 'This is a example value',
